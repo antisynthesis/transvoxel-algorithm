@@ -1,0 +1,18 @@
+[package]
+name = "transvoxel-algorithm"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+description = "A complete implementation of Eric Lengyel's Transvoxel Algorithm: crack-free, multi-resolution isosurface extraction from voxel data."
+license = "MIT"
+repository = "https://github.com/antisynthesis/transvoxel-algorithm"
+readme = "README.md"
+keywords = ["transvoxel", "marching-cubes", "voxel", "isosurface", "terrain"]
+categories = ["graphics", "game-development", "rendering::data-formats"]
+
+[lib]
+name = "transvoxel"
+
+[dependencies]
+
+[dev-dependencies]
